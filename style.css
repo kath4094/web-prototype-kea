@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #FAF7F7;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    max-width: 1200px;
+
+    margin: 0 auto;
+    width: 100%;
+}
+
+:root {
+    --color-red: #EA5045;
+    --color-grey: #FAF7F7;
+}
+
+#login_header {
+    background-color: var(--color-red);
+    width: 100%;
+    height: 58vw;
+    position: relative;
+}
+
+
+#kea_logo {
+    position: absolute;
+    width: 30vw;
+    top: 25vw;
+    left: 35vw;
+
+}
+
+
+#login_formular {
+    position: absolute;
+    top: 15vw;
+    left: 15vw;
+
+
+}
+
+#login_section {
+    position: relative;
+}
+
+#continue_knap {
+    margin-top: 5rem;
+}
+
+.formgroup {
+    width: 70vw;
+    height: 12vw;
+    border-radius: 2rem;
+    border-style: none;
+    color: var(--color-red);
+    padding-left: 1rem;
+    font-size: 0.9rem;
+
+}
+
+.formgroup2 {
+    width: 70vw;
+    height: 12vw;
+    border-radius: 2rem;
+    border-style: none;
+    color: white;
+    padding-left: 1rem;
+    font-size: 0.6rem;
+    background-color: var(--color-red);
+
+}
+
+.formgroup3 {
+    width: 70vw;
+    height: 12vw;
+    border-radius: 2rem;
+    border-style: solid;
+    border-color: var(--color-red);
+    color: var(--color-red);
+    padding-left: 1rem;
+    font-size: 0.6rem;
+    background-color: var(--color-grey);
+    border-width: 0.15rem;
+    font-weight: bolder;
+    background-image: url(billeder/facebook_logo.png);
+    background-repeat: no-repeat;
+    background-position: 1rem;
+
+
+
+
+}
