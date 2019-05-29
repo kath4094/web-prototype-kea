@@ -117,6 +117,7 @@ section {
     left: 4vw;
     position: absolute;
     background-repeat: no-repeat;
+    z-index: 4;
 
 
 }
@@ -243,7 +244,6 @@ section {
     margin-right: 0.6rem;
     background-repeat: no-repeat;
 
-
 }
 
 #columnleft {
@@ -265,6 +265,7 @@ section {
     position: absolute;
     top: 10vw;
     left: 90vw;
+    z-index: 4;
 
 }
 
@@ -285,6 +286,8 @@ a {
     height: 180vw;
     margin-top: -5vw;
     text-align: center;
+    position: relative;
+    z-index: 3;
 }
 
 li {
