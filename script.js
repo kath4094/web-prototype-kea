@@ -30,17 +30,12 @@ function toggleMenu() {
 
 
 
-
-
 }
 
 
 function toggleMenuAflevering() {
     document.querySelector("#aflevering_list").classList.toggle("hidden");
 
-    document.querySelector("#aflevering_boks").classList.toggle("hidden");
-
-    document.querySelector("#naeste_aflevering_knap").classList.toggle("hidden");
 
     let erSkjult1 = document.querySelector("#aflevering_list").classList.contains("hidden");
 

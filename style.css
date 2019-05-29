@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-red: #EA5045;
+    --color-grey: #FAF7F7;
+}
+
 body {
     margin: 0;
     background-color: #FAF7F7;
@@ -16,11 +21,6 @@ section {
 
     margin: 0 auto;
     width: 100%;
-}
-
-:root {
-    --color-red: #EA5045;
-    --color-grey: #FAF7F7;
 }
 
 #login_header {
@@ -292,6 +292,11 @@ a {
 
 li {
     margin-bottom: 3rem;
+    list-style-type: none;
+}
+
+#aflevering_list li{
+    margin-bottom: 0rem;
 }
 
 #aktuelt_burger {
