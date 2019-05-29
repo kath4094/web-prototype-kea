@@ -9,6 +9,86 @@
 </head>
 
 <body>
+    <header>
+        <div id="menu">
+            <div id="logo_menu"></div>
+            <nav>
+                <div id="menuknap">☰</div>
+                <ul id="menu_list" class="hidden">
+                    <li id="aktuelt_burger"><a href="forside.html">Aktuelt</a></li>
+                    <li> <a href="forside.html">Skema</a></li>
+                    <li> <a href="afleveringer.html">Afleveringer</a></li>
+                    <li> <a href="forside.html">Materialer</a></li>
+                    <li> <a href="forside.html">Chat</a></li>
+                    <li> <a href="forside.html">Indstillinger</a></li>
+                    <div id="logud_burger">
+                        <p>Log ud</p>
+                    </div>
+                </ul>
+            </nav>
+            <div id="profile_menu"></div>
+        </div>
+    </header>
+    <section>
+        <h1>Afleveringer</h1>
+
+        <h2>Næste aflevering</h2>
+        <div id="naeste_aflevering" class="aflevering_boks">
+            <h3>F19 - 04.01.01 - Opgavebeskrivelse - Design Sprint</h3>
+            <div id="naeste_aflevering_knap"></div>
+            <p>Det er vigtigt at du fokuserer på....</p>
+
+        </div>
+
+        <h2>Upload aflevering</h2>
+        <div id="upload_aflevering" class="upload_boks">
+            <h3>Aflever</h3>
+            <p>Tirsdag d. 21/5/19 inden kl. 22.00</p>
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+
+                <input type="file" name="fileToUpload" id="fileToUpload"></form>
+        </div>
+
+
+        <h2>Tidligere afleveringer</h2>
+        <div id="tema1_aflevering" class="aflevering_boks">
+            <h3>Tema 1</h3>
+            <p>Grundlæggende Web</p>
+            <div id="aflevering_knap">⌵</div>
+            <ul id="aflevering_list" class="hidden">
+                <div class="aflevering_udvidet">
+                    <h3>04.01.01 - Opgavebeskrivelse - Design Sprint</h3>
+                    <p>Dit filnavn</p>
+
+                </div>
+                <div class="aflevering_udvidet">
+                    <h3>04.01.01 - Opgavebeskrivelse - Design Sprint</h3>
+                    <p>Dit filnavn</p>
+
+                </div>
+                <div class="aflevering_udvidet">
+                    <h3>04.01.01 - Opgavebeskrivelse - Design Sprint</h3>
+                    <p>Dit filnavn</p>
+
+                </div>
+            </ul>
+
+        </div>
+        <div id="tema2_aflevering" class="aflevering_boks">
+            <h3>Tema 2</h3>
+            <p>Grundlæggende Animation</p>
+        </div>
+        <div id="tema3_aflevering" class="aflevering_boks">
+            <h3>Tema 3</h3>
+            <p>Grundlæggende Indhold</p>
+        </div>
+        <div id="tema4_aflevering" class="aflevering_boks">
+            <h3>Tema 4</h3>
+            <p>Grundlæggende UX</p>
+        </div>
+
+    </section>
+
     <script src="script.js"></script>
 </body>
 
