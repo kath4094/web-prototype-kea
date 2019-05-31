@@ -23,6 +23,7 @@ section {
     width: 100%;
 }
 
+/*HEADER START*/
 #login_header {
     background-color: var(--color-red);
     width: 100%;
@@ -39,6 +40,9 @@ section {
 
 }
 
+/*HEADER SLUT*/
+
+/*LOGIN FUNKTION*/
 
 #login_formular {
     position: absolute;
@@ -97,6 +101,8 @@ section {
 
 }
 
+/*LOGIN FUNKTION SLUT*/
+/*MENU INDEX HTML START*/
 
 #menu {
     width: 100%;
@@ -135,7 +141,9 @@ section {
 
 }
 
+/*MENU INDEX HTML SLUT*/
 
+/*INDHOLD PÅ FORSIDE START*/
 #materialer {
     width: 32vw;
     background-image: url(billeder/materialer.png);
@@ -229,7 +237,7 @@ section {
 
 #afleveringer {
     width: 30vw;
-    /*    background-image: url(billeder/afleveringer.png);*/
+    background-image: url(billeder/afleveringer.png);
     background-size: 100%;
     height: 29vw;
     margin-top: 0.6rem;
@@ -251,6 +259,10 @@ section {
     margin-left: 0.6rem;
 
 }
+
+/*INDHOLD PÅ FORSIDE SLUT*/
+
+/*BURGERMENU START*/
 
 .hidden {
     display: none;
@@ -295,7 +307,7 @@ li {
     list-style-type: none;
 }
 
-#aflevering_list li{
+#aflevering_list li {
     margin-bottom: 0rem;
 }
 
@@ -318,6 +330,10 @@ li {
     font-weight: bolder;
     line-height: 3rem;
 }
+
+/*BURGERMENU SLUT*/
+
+/*TEKST TIL SIDEN*/
 
 h1 {
     font-family: sans-serif;
@@ -347,6 +363,10 @@ p {
     padding-left: 1rem;
 }
 
+/*TEKST TIL SIDEN SLUT*/
+
+
+
 .aflevering_boks {
     width: 90vw;
     height: 18vw;
@@ -361,6 +381,7 @@ p {
     margin: 1rem;
 }
 
+
 #naeste_aflevering_knap {
     background-image: url(billeder/naeste_aflevering_knap.png);
     background-size: 100%;
@@ -368,14 +389,21 @@ p {
     height: 5vw;
     position: absolute;
     top: 63vw;
-    left: 87vw;
+    left: 84vw;
+
 
 }
+
+/*AFLEVERINGSFUNKTION START*/
 
 #fileToUpload {
     padding-left: 1rem;
 
 }
+
+/*AFLEVERINGSFUNKTION SLUT*/
+
+/*SE AFLEVERINGER START*/
 
 #aflevering_knap {
     font-size: 1rem;
@@ -405,3 +433,5 @@ p {
     position: relative;
     z-index: 1;
 }
+
+/*SE AFLEVERINGER SLUT*/
